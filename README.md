@@ -30,9 +30,9 @@
 <b>En este proyecto se ha de recrear un mostrador de alimentos dinámico con carrito de compra</b>
 
 <a name="id2"></a>
-###   Reto
+###  Reto
 
-####Funcionamiento:
+#### Funcionamiento:
 
 <b>Se deben mostrar una serie de elementos entendidos como productos. Con su precio individual correspondiente</b>
 
@@ -95,7 +95,7 @@
 
 
 
-
+<a name="id5"></a>
 ###  Instrucciones de instalación
 
 <b> Descargue el .Zip, descomprímalo en una carpeta y abra el archivo index.html en su buscador de preferencia.</b>
