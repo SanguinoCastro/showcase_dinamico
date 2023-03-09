@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'plc';
+    src: url(../font/digital\ display\ tfb.ttf);
+}
+
+body{
+    display: grid;
+    justify-content: center;
+}
+
+.title{
+    height: 10em;
+    width: 20.5em;
+    border: 1px solid black;
+
+}
+
+.shop{
+    display: flex;
+    flex-direction: row;
+}
