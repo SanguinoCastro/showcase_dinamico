@@ -1,0 +1,35 @@
+ul{
+    list-style: none;
+}
+
+.billContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39em;
+    width: 20em;
+    margin-left: -0.3em;
+    text-align: start;
+}
+
+.bill{
+    background-color: beige;
+    height: 35em;
+    width: 17.4em;
+    border: 1px solid black;
+    font-size: small;
+}
+
+.billText{
+    margin-left: -1.5em;
+}
+
+.address{
+    margin-top: -1em;
+}
+
+.ticketInvoice{
+    text-align: center;
+    margin-left: -1.5em;
+    margin-top: -1em;
+}

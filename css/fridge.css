@@ -8,16 +8,15 @@
     background-size: contain;
     height: 50em;
     width: 20.5em;
-    border: 1px solid rgb(0, 0, 0);
 }
 
-.center{
+.center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.priceFridge{
+.priceFridge {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +30,7 @@
     text-shadow: rgb(142, 255, 142) 0.3em 0em 0.9em;
 }
 
-.plc{
+.plc {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +42,7 @@
     border-style: double;
 }
 
-#price{
+#price {
     margin-left: 0.5em;
 }
 

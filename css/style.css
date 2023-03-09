@@ -6,16 +6,28 @@
 body{
     display: grid;
     justify-content: center;
+    background-image: url(../resources/wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.title{
-    height: 10em;
-    width: 20.5em;
-    border: 1px solid black;
-
-}
-
-.shop{
+.titleSection {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    width: 40.5em;
+    text-shadow:  -1px 0 5px white, 0 1px 5px white,
+    1px 0 white, 0 -1px white;
+
+}
+
+.title {
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.shop {
+    display: flex;
 }

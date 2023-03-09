@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/fridge.css">
     <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/bill.css">
     <script src="./js/main.js" async></script>
     <title>Document</title>
 </head>
 <body>
 
-<div class="title"></div>
+<div class="titleSection"><p class="title">GeeksHubs Shop</p></div>
 
-<div class="Shop">
+<div class="shop">
     <table class="fridge">
         <thead class="center">
             <tr class="priceFridge">
@@ -58,9 +59,33 @@
             </tr>
         </thead>
     </table>
-    <table class="cart">
+    <table class="cartSection">
         <thead>
-            <tr>Hola</tr>
+            <tr>
+                <th>
+                    <div class="billContainer">
+                        <ul class="bill">
+                            <li><h3 class="billText">GeeksHubs Shop</h3>
+                                <p class="address billText">Avda Cataluña nº 11 <br>
+                                Valencia, Valencia (46020), España</p></li>
+                            <li><p class="billText"> Tlf: 666666666 <br></p></li>
+                            <li><p class="billText">***********************************</p></li>
+                            <li><h3 class="ticketInvoice">Ticket Invoice Nº 1</h3></li>
+                            <li><p class="billText">----------------------------------------------------</p></li>
+                            <li><p></p></li>
+                            <li><p></p></li>
+                            <li><p></p></li>
+                            <li><p></p></li>
+                            <li><p></p></li>
+                            </ul>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="cart"></div>
+                </th>
+            </tr>
         </thead>
     </table>
 </div>
