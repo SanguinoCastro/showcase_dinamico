@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/cart.css">
     <link rel="stylesheet" href="./css/bill.css">
     <script src="./js/main.js" async></script>
+    <script src="./js/bill.js"></script>
+    <script src="./js/plc.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -19,43 +21,43 @@
     <table class="fridge">
         <thead class="center">
             <tr class="priceFridge">
-                <th class="plc"><h2 id="price">2.50€</h2></th>
+                <th class="plc"><h2 id="price"></h2></th>
             </tr>
             <tr class="drink first" >
-                <th><img class='liquid' draggable="true" src="./resources/cocacola.png" alt="CocaCola"></th>
-                <th><img class='liquid' draggable="true" src="./resources/cocacola.png" alt="CocaCola"></th>
-                <th><img class='liquid' draggable="true" src="./resources/cocacola.png" alt="CocaCola"></th>
-                <th><img class='liquid' draggable="true" src="./resources/cocacola.png" alt="CocaCola"></th>
+                <th><img class='liquid cocacola' src="./resources/cocacola.png"  alt="CocaCola" data-price="0.85" data-name="CocaCola"></th>
+                <th><img class='liquid cocacola' src="./resources/cocacola.png" alt="CocaCola" data-price="0.85" data-name="CocaCola"></th>
+                <th><img class='liquid cocacola'  src="./resources/cocacola.png" alt="CocaCola" data-price="0.85" data-name="CocaCola"></th>
+                <th><img class='liquid cocacola'  src="./resources/cocacola.png" alt="CocaCola" data-price="0.85" data-name="CocaCola"></th>
             </tr>
             <tr class="drink second">
-                <th><img class='liquid' draggable="true" src="./resources/fanta.png" alt="Fanta"></th>
-                <th><img class='liquid' draggable="true" src="./resources/fanta.png" alt="Fanta"></th>
-                <th><img class='liquid' draggable="true" src="./resources/fanta.png" alt="Fanta"></th>
-                <th><img class='liquid' draggable="true" src="./resources/fanta.png" alt="Fanta"></th>
+                <th><img class='liquid fanta'  src="./resources/fanta.png" alt="Fanta" data-price="0.70" data-name="Fanta"></th>
+                <th><img class='liquid fanta'  src="./resources/fanta.png" alt="Fanta" data-price="0.70" data-name="Fanta"></th>
+                <th><img class='liquid fanta'  src="./resources/fanta.png" alt="Fanta" data-price="0.70" data-name="Fanta"></th>
+                <th><img class='liquid fanta'  src="./resources/fanta.png" alt="Fanta" data-price="0.70" data-name="Fanta"></th>
             </tr>
             <tr class="drink third">
-                <th><img class='liquid' draggable="true" src="./resources/sevenup.png" alt="7Up"></th>
-                <th><img class='liquid' draggable="true" src="./resources/sevenup.png" alt="7Up"></th>
-                <th><img class='liquid' draggable="true" src="./resources/sevenup.png" alt="7Up"></th>
-                <th><img class='liquid' draggable="true" src="./resources/sevenup.png" alt="7Up"></th>
-                <th><img class='liquid' draggable="true" src="./resources/sevenup.png" alt="7Up"></th>
-                <th><img class='liquid' draggable="true" src="./resources/sevenup.png" alt="7Up"></th>
+                <th><img class='liquid sevenUp'  src="./resources/sevenup.png" alt="7Up" data-price="0.59" data-name="7Up"></th>
+                <th><img class='liquid sevenUp'  src="./resources/sevenup.png" alt="7Up" data-price="0.59" data-name="7Up"></th>
+                <th><img class='liquid sevenUp'  src="./resources/sevenup.png" alt="7Up" data-price="0.59" data-name="7Up"></th>
+                <th><img class='liquid sevenUp'  src="./resources/sevenup.png" alt="7Up" data-price="0.59" data-name="7Up"></th>
+                <th><img class='liquid sevenUp'  src="./resources/sevenup.png" alt="7Up" data-price="0.59" data-name="7Up"></th>
+                <th><img class='liquid sevenUp'  src="./resources/sevenup.png" alt="7Up" data-price="0.59" data-name="7Up"></th>
             </tr>
             <tr class="drink fourth">
-                <th><img class='liquid' draggable="true" src="./resources/monster.png" alt="Monster"></th>
-                <th><img class='liquid' draggable="true" src="./resources/monster.png" alt="Monster"></th>
-                <th><img class='liquid' draggable="true" src="./resources/monster.png" alt="Monster"></th>
-                <th><img class='liquid' draggable="true" src="./resources/monster.png" alt="Monster"></th>
-                <th><img class='liquid' draggable="true" src="./resources/monster.png" alt="Monster"></th>
+                <th><img class='liquid monster'  src="./resources/monster.png" alt="Monster" data-price="1.70" data-name="Monster"></th>
+                <th><img class='liquid monster'  src="./resources/monster.png" alt="Monster" data-price="1.70" data-name="Monster"></th>
+                <th><img class='liquid monster'  src="./resources/monster.png" alt="Monster" data-price="1.70" data-name="Monster"></th>
+                <th><img class='liquid monster'  src="./resources/monster.png" alt="Monster" data-price="1.70" data-name="Monster"></th>
+                <th><img class='liquid monster'  src="./resources/monster.png" alt="Monster" data-price="1.70" data-name="Monster"></th>
                 
             </tr>
             <tr class="drink fifth">
-                <th><img class='liquid' draggable="true" src="./resources/solan.png" alt="Solan de Cabras"></th>
-                <th><img class='liquid' draggable="true" src="./resources/solan.png" alt="Solan de Cabras"></th>
-                <th><img class='liquid' draggable="true" src="./resources/solan.png" alt="Solan de Cabras"></th>
-                <th><img class='liquid' draggable="true" src="./resources/schweppes.png" alt="Schweppes"></th>
-                <th><img class='liquid' draggable="true" src="./resources/schweppes.png" alt="Schweppes"></th>
-                <th><img class='liquid' draggable="true" src="./resources/schweppes.png" alt="Schweppes"></th>
+                <th><img class='liquid water'  src="./resources/solan.png" alt="Solan de Cabras" data-price="0.87" data-name="Solan de Cabras"></th>
+                <th><img class='liquid water'  src="./resources/solan.png" alt="Solan de Cabras" data-price="0.87" data-name="Solan de Cabras"></th>
+                <th><img class='liquid water'  src="./resources/solan.png" alt="Solan de Cabras" data-price="0.87" data-name="Solan de Cabras"></th>
+                <th><img class='liquid schweppes'  src="./resources/schweppes.png" alt="Schweppes" data-price="0.99" data-name="Schweppes"></th>
+                <th><img class='liquid schweppes'  src="./resources/schweppes.png" alt="Schweppes" data-price="0.99" data-name="Schweppes"></th>
+                <th><img class='liquid schweppes'  src="./resources/schweppes.png" alt="Schweppes" data-price="0.99" data-name="Schweppes"></th>
             </tr>
         </thead>
     </table>
@@ -72,18 +74,20 @@
                             <li><p class="billText">***********************************</p></li>
                             <li><h3 class="ticketInvoice">Ticket Invoice Nº 1</h3></li>
                             <li><p class="billText">----------------------------------------------------</p></li>
-                            <li><p></p></li>
-                            <li><p></p></li>
-                            <li><p></p></li>
-                            <li><p></p></li>
-                            <li><p></p></li>
-                            </ul>
+                        
+                        <ul id="bill">
+                            
+                        </ul>
+                        <ul id="total">
+
+                        </ul>
+                    </ul>
                     </div>
                 </th>
             </tr>
             <tr>
                 <th>
-                    <div class="cart"></div>
+                    <div class="cart" id="cart" ></div>
                 </th>
             </tr>
         </thead>

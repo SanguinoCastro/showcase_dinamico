@@ -20,6 +20,8 @@
 
 [Prueba la página](#id6)
 
+[Actualizaciones](#id7)
+
 <a name="id1"></a>
 
 ###   Presentación
@@ -91,11 +93,21 @@
 
 ###  Información de la Página realizada
 
-<b> 'Pendiente añadir información'</b>
+<b> En el proyecto se muestra un aparador refrigerador con varias bebidas en el.</b>
 
+<img src= "/resources/web.png" width="500">
 
+<b> En la parte superior del refrigerador hay un monitor/PLC dónde, al colocar el ratón sobre un producto, se mostrará el precio unitario de éste, y dejando de mostrarse al apartar el ratón</b>
 
+<img src= "/resources/plc.png" width="250">
+
+<b>Al arrastrar el primer producto sobre el carrito se hara visible el ticket de compra, dónde podremos ver la información de la tienda, el producto arrastrado y el total de la compra</b>
+
+<img src= "/resources/tiket1.png" width="250">
 <a name="id5"></a>
+
+<b>A medida que se vayan añadiendo articulos a la cesta se irán añadiendo los productos y el precio total al ticket, en el caso de poner muchos productos podrás ir navegando a través del ticket mediante el scroll.</b>
+
 ###  Instrucciones de instalación
 
 <b> Descargue el .Zip, descomprímalo en una carpeta y abra el archivo index.html en su buscador de preferencia.</b>
@@ -107,5 +119,10 @@
 [ Proyecto Final (showcase)](https://sanguinocastro.github.io/showcase_dinamico)
 
 ---
+
+<a name="id7"></a>
+###  Actualizaciones:
+
+13/03/2023 Version 1.0.- Proyecto Funcional, Puedes hacer Drag & Drop de los refrescos del refrigerador a la cesta y aparecerá el tiquet con los elementos arrastrados a la cesta y se sumarán al valor total, al pasar el ratón sobre el producto se muestra el precio del refresco sobre el que estés, dejando de mostrarse al salir del refresco.
 
 [Ir al inicio](#top)
