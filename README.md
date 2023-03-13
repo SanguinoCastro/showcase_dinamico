@@ -2,7 +2,7 @@
 <img src= "/resources/geekshubs.png" width="200"> 
 
 
-##   Reto Carta Restaurante Digital
+##   Reto Showcase Dinámico
 
 ----------------------------------
 
