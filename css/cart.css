@@ -1,0 +1,20 @@
+
+.cartSection {
+    display: flex;
+    align-items: flex-end;
+    height: 50em;
+    width: 20em;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../resources/cesta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10em;
+    width: 20em;
+    margin-left: -0.3em;
+}
