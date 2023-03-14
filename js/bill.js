@@ -1,77 +1,99 @@
-let colaCount = 1;
-let fantaCount = 1;
-let sevenUpCount = 1;
-let monsterCount = 1;
-let waterCount = 1;
-let schweppesCount = 1;
+let colaCount = 0;
+let colaTotal = 0;
+let fantaCount = 0;
+let fantaTotal = 0;
+let sevenUpCount = 0;
+let sevenUpTotal = 0;
+let monsterCount = 0;
+let monsterTotal = 0;
+let waterCount = 0;
+let waterTotal = 0;
+let schweppesCount = 0;
+let schweppesTotal = 0;
+let drinkTotal = 0;
+let totalFunct = 0;
 let totalBill = 0;
 
 function bill(e) {
+    
     const bill = document.getElementById('bill');
     const dataName = Array.from(bill.children).some(li => li.dataset.name === e.dataset.name);
-    console.log(dataName);
+    const element = e.dataset.name
+    const price = Number(e.dataset.price);
+
     if (!dataName) {
         const elementBill = document.createTextNode(`${e.dataset.name}: ${e.dataset.price} €`);
-        console.log(elementBill);
         const newLi = createNewLi(elementBill);
         newLi.setAttribute('data-price', e.dataset.price);
         newLi.setAttribute('data-name', e.dataset.name);
         newLi.setAttribute('class', `${e.dataset.name}1`)
         bill.appendChild(newLi);
+        drinkTotal = drinkTotal + price;
     } else {
-        const element = e.dataset.name
-        const price = Number(e.dataset.price);
-        console.log(element);
+        
         if(element === 'CocaCola'){
             const drink = document.querySelector('.CocaCola1')
             colaCount ++
-            drink.innerText=`x${colaCount} ${e.dataset.name}: ${e.dataset.price}/u €`
+            colaTotal = price * colaCount;
+            drink.innerText=`x${colaCount + 1} ${element}: ${price} €/u`
 
         }else if (element === 'Fanta'){
+            
             const drink = document.querySelector('.Fanta1');
             fantaCount ++;
-            drink.innerText=`x${fantaCount} ${e.dataset.name}: ${e.dataset.price}/u €`;
-            console.log(totalBill)
+            fantaTotal = price * fantaCount;
+            drink.innerText=`x${fantaCount + 1} ${e.dataset.name}: ${e.dataset.price} €/u`;
+     
+
         }else if (element === 'SevenUp'){
+
             const drink = document.querySelector('.SevenUp1')
             sevenUpCount ++
-            drink.innerText=`x${sevenUpCount} ${e.dataset.name}: ${e.dataset.price}/u €`
+            sevenUpTotal = price * sevenUpCount;
+            drink.innerText=`x${sevenUpCount + 1} ${e.dataset.name}: ${e.dataset.price} €/u`
+
         }else if (element === 'Monster'){
             const drink = document.querySelector('.Monster1')
             monsterCount ++
-            drink.innerText=`x${monsterCount} ${e.dataset.name}: ${e.dataset.price}/u €`
+            monsterTotal = price * monsterCount;
+            drink.innerText=`x${monsterCount + 1} ${e.dataset.name}: ${e.dataset.price} €/u`
         }else if (element === 'Agua'){
             const drink = document.querySelector('.Agua1')
             waterCount ++
-            drink.innerText=`x${waterCount} ${e.dataset.name}: ${e.dataset.price}/u €`
+            waterTotal = price * waterCount;
+            drink.innerText=`x${waterCount + 1} ${e.dataset.name}: ${e.dataset.price} €/u`
         }else if (element === 'Schweppes'){
             const drink = document.querySelector('.Schweppes1')
             schweppesCount ++
-            drink.innerText=`x${schweppesCount} ${e.dataset.name}: ${e.dataset.price}/u €`
+            schweppesTotal = price * schweppesCount;
+            drink.innerText=`x${schweppesCount + 1} ${e.dataset.name}: ${e.dataset.price} €/u`
         }
 
     }
 }
 
 function total() {
-    const billContainer = document.querySelector('.billContainer')
-    const bill = document.getElementById('bill');
-    const totalUl = document.getElementById('total')
+    const billContainer = document.querySelector('.billContainer');
+    const totalUl = document.getElementById('total');
     const liInBill = document.querySelectorAll('#bill > li');
+    let total = 0;
     liInBill.forEach(li => {
-        totalBill += +li.getAttribute('data-price');
-    })
+        total += +li.getAttribute('data-price');
+    });
 
-    totalBill = Number((totalBill).toFixed(2));
+    total = Number((total).toFixed(2));
+    totalFunct = total ;
+    totalFunct = Number((totalFunct).toFixed(2));
 
     const allLi = document.querySelector('#total > h3');
     if (!allLi) {
         billContainer.style.visibility = "visible"
-        const element = createLi(undefined, totalBill);
+        const element = createLi(undefined, totalFunct);
         const totalElement = createTotalElement(element);
         totalUl.appendChild(totalElement);
     } else {
-        allLi.textContent = updateTotal(totalBill)
+        totalBill = Number((drinkTotal + colaTotal + fantaTotal + sevenUpTotal + monsterTotal + waterTotal + schweppesTotal).toFixed(2));
+        allLi.textContent = updateTotal(totalBill);
     }
 };
 

@@ -22,7 +22,7 @@ ul{
 }
 
 #bill{
-    overflow-y: scroll;
+    margin-left: -3em;
     height: 15em;
 }
 
