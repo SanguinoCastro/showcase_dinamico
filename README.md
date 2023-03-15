@@ -48,15 +48,6 @@
 <b>Se valorará como puntos extras que además de añadir productos se añada una funcionalidad para retirarlos del carrito.</b>
 
 
-
-
-
-<b>Teniendo en cuenta los requisitos, llegamos a la conclusión de que este sería el mínimo de visitas convenientes:</b>
-
-- Vista Home/ Principal/ Presentación del establecimiento
-- Vista Contacto
-- Vista Carta
-
 <a name="id3"></a>
 
 ###   Tecnologías
@@ -93,20 +84,20 @@
 
 ###  Información de la Página realizada
 
-<b> En el proyecto se muestra un aparador refrigerador con varias bebidas en el.</b>
+<b> En el proyecto se muestra un aparador refrigerador con varias bebidas en él.</b>
 
 <img src= "/resources/web.png" width="500">
 
-<b> En la parte superior del refrigerador hay un monitor/PLC dónde, al colocar el ratón sobre un producto, se mostrará el precio unitario de éste, y dejando de mostrarse al apartar el ratón</b>
+<b> En la parte superior del refrigerador hay un monitor/PLC donde, al colocar el ratón sobre un producto, se mostrará el precio unitario de éste, y dejará de mostrarse al apartar el ratón</b>
 
 <img src= "/resources/plc.png" width="250">
 
-<b>Al arrastrar el primer producto sobre el carrito se hara visible el ticket de compra, dónde podremos ver la información de la tienda, el producto arrastrado, el total de la compra y el botón para eliminar el artículo del ticket</b><br>
+<b>Al arrastrar el primer producto sobre el carrito se hará visible el ticket de compra, dónde podremos ver la información de la tienda, el producto arrastrado, el total de la compra y el botón para eliminar el artículo del ticket</b><br>
 Antiguo (ver.0.0) ------------------------ Nuevo (ver.1.0)<br>
 <img src= "/resources/tiket1.png" width="250"> <img src= "/resources/tiket2.png" width="250">
 <a name="id5"></a>
 
-<b>Al colocar los artículos en la cesta, si es un artículo que ya se habia añadido se modificará la línea del artículo indicando cuántos se han llevado al carrito y se actualizará el precio total de todos.</b>
+<b>Al colocar los artículos en la cesta, si es un artículo que ya se había añadido se modificará la línea del artículo indicando cuántos se han llevado al carrito y se actualizará el precio total de todos.</b>
 
 ###  Instrucciones de instalación
 
@@ -123,9 +114,9 @@ Antiguo (ver.0.0) ------------------------ Nuevo (ver.1.0)<br>
 <a name="id7"></a>
 ###  Actualizaciones:
 
-13/03/2023 Versión 0.0.- Proyecto Funcional, Puedes hacer Drag & Drop de los refrescos del refrigerador a la cesta y aparecerá el tiquet con los elementos arrastrados a la cesta y se sumarán al valor total, al pasar el ratón sobre el producto se muestra el precio del refresco sobre el que estés, dejando de mostrarse al salir del refresco.
+13/03/2023 Versión 0.0.- Proyecto Funcional, Puedes hacer Drag & Drop de los refrescos del refrigerador a la cesta y aparecerá el ticket con los elementos arrastrados a la cesta y se sumarán al valor total, al pasar el ratón sobre el producto se muestra el precio del refresco sobre el que estés, dejando de mostrarse al salir del refresco.
 
-14/03/2023 Versión 0.1.- Ahora al añadir mas de un producto igual a la cesta se modifica la linea de texto en el ticket para indicar que hay mas de una unidad y se suman los valores al total.
+14/03/2023 Versión 0.1.- Ahora al añadir más de un producto igual a la cesta se modifica la línea de texto en el ticket para indicar que hay más de una unidad y se suman los valores al total.
 
 15/03/2023 versión 1.0.- Se ha añadido la opción de poder eliminar los artículos del ticket de la compra, descontando su importe del total.
 
