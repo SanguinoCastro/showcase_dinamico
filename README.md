@@ -123,6 +123,8 @@
 <a name="id7"></a>
 ###  Actualizaciones:
 
-13/03/2023 Version 1.0.- Proyecto Funcional, Puedes hacer Drag & Drop de los refrescos del refrigerador a la cesta y aparecerá el tiquet con los elementos arrastrados a la cesta y se sumarán al valor total, al pasar el ratón sobre el producto se muestra el precio del refresco sobre el que estés, dejando de mostrarse al salir del refresco.
+13/03/2023 Versión 0.0.- Proyecto Funcional, Puedes hacer Drag & Drop de los refrescos del refrigerador a la cesta y aparecerá el tiquet con los elementos arrastrados a la cesta y se sumarán al valor total, al pasar el ratón sobre el producto se muestra el precio del refresco sobre el que estés, dejando de mostrarse al salir del refresco.
+
+14/03/2023 Versión 0.1.- Ahora al añadir mas de un producto igual a la cesta se modifica la linea de texto en el ticket para indicar que hay mas de una unidad y se suman los valores al total.
 
 [Ir al inicio](#top)
