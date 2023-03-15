@@ -55,6 +55,10 @@ ul{
     background-color: rgb(235, 95, 95);
     border-radius: 1em;
     font-size: large;
-    vertical-align: text-top;
     text-align: center;
 }
+
+#bill tr button:hover {
+    background-color: rgb(189, 68, 68);
+    color: white;
+} 
