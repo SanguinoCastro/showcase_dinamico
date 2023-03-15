@@ -36,6 +36,25 @@ ul{
 
 .ticketInvoice{
     text-align: center;
-    margin-left: -1.5em;
+    margin-left: -2.65em;
     margin-top: -1em;
+}
+
+.elementTiket{
+    font-size: small;
+}
+
+#bill tr button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 1em;
+    width: 1em;
+    margin-left: 2em;
+    background-color: rgb(235, 95, 95);
+    border-radius: 1em;
+    font-size: large;
+    vertical-align: text-top;
+    text-align: center;
 }

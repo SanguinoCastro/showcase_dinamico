@@ -1,7 +1,6 @@
 const cart = document.getElementById('cart')
 const liquids = document.querySelectorAll('.liquid')
 const plc = document.getElementById('price')
-let elementPrice = 0
 
 liquids.forEach(liquid => {
     liquid.setAttribute('draggable' , 'true')
