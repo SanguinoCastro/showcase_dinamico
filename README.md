@@ -101,12 +101,12 @@
 
 <img src= "/resources/plc.png" width="250">
 
-<b>Al arrastrar el primer producto sobre el carrito se hara visible el ticket de compra, dónde podremos ver la información de la tienda, el producto arrastrado y el total de la compra</b>
-
-<img src= "/resources/tiket1.png" width="250">
+<b>Al arrastrar el primer producto sobre el carrito se hara visible el ticket de compra, dónde podremos ver la información de la tienda, el producto arrastrado, el total de la compra y el botón para eliminar el artículo del ticket</b>
+Antiguo (ver.0.0) ------------------------ Nuevo (ver.1.0)
+<img src= "/resources/tiket1.png" width="250"> <img src= "/resources/tiket2.png" width="250">
 <a name="id5"></a>
 
-<b>A medida que se vayan añadiendo articulos a la cesta se irán añadiendo los productos y el precio total al ticket, en el caso de poner muchos productos podrás ir navegando a través del ticket mediante el scroll.</b>
+<b>Al colocar los artículos en la cesta, si es un artículo que ya se habia añadido se modificará la línea del artículo indicando cuántos se han llevado al carrito y se actualizará el precio total de todos.</b>
 
 ###  Instrucciones de instalación
 
@@ -126,5 +126,7 @@
 13/03/2023 Versión 0.0.- Proyecto Funcional, Puedes hacer Drag & Drop de los refrescos del refrigerador a la cesta y aparecerá el tiquet con los elementos arrastrados a la cesta y se sumarán al valor total, al pasar el ratón sobre el producto se muestra el precio del refresco sobre el que estés, dejando de mostrarse al salir del refresco.
 
 14/03/2023 Versión 0.1.- Ahora al añadir mas de un producto igual a la cesta se modifica la linea de texto en el ticket para indicar que hay mas de una unidad y se suman los valores al total.
+
+15/03/2023 versión 1.0.- Se ha añadido la opción de poder eliminar los artículos del ticket de la compra, descontando su importe del total.
 
 [Ir al inicio](#top)
