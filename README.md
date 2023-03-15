@@ -102,7 +102,7 @@
 <img src= "/resources/plc.png" width="250">
 
 <b>Al arrastrar el primer producto sobre el carrito se hara visible el ticket de compra, dónde podremos ver la información de la tienda, el producto arrastrado, el total de la compra y el botón para eliminar el artículo del ticket</b><br>
-Antiguo (ver.0.0) ------------------------ Nuevo (ver.1.0)
+Antiguo (ver.0.0) ------------------------ Nuevo (ver.1.0)<br>
 <img src= "/resources/tiket1.png" width="250"> <img src= "/resources/tiket2.png" width="250">
 <a name="id5"></a>
 
